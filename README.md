@@ -6,10 +6,22 @@ Python生成正则表达式模块，此模块用来逆向的生成正则表达�
 ### 版本
 Python2.7
 
+说明：想要在python3中使用，可自行修改源码，主要修改print函数以及正则ur"",字符编码。
+
 ### Usage
 #### download
 ```bash
 git clone https://github.com/tengzhangchao/CreateRe.git
+
+python setup.py install
+```
+或者：
+```bash
+wget https://pypi.python.org/packages/4a/02/e3a9df3b0b9299a6fbd5958dd111a62731aa9b4054e9a361b05290278417/CreateRe-1.0.0.tar.gz#md5=a79148a155d8d13a83e102501c0c4868
+
+tar -zxvf CreateRe-1.0.0.tar.gz
+
+python setup.py install
 ```
 
 #### import module

@@ -26,11 +26,11 @@ cur=create_re()
 RES=cur.run(STRING,S,tag=tag)
 check_result=cur.check_res(RES,tag=tag)
 
-print RES
-print check_result
+print(RES)
+print(check_result)
 
 
 # ''' 获取已有的正则表达式 '''
 
-# print cur.get_res("email")
+# print(cur.get_res("email"))
 
