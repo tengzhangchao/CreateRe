@@ -15,7 +15,11 @@ git clone https://github.com/tengzhangchao/CreateRe.git
 
 python setup.py install
 ```
-或者：
+pip安装：
+```bash
+pip install CreateRe -i https://pypi.python.org/pypi
+```
+wget下载安装包：
 ```bash
 wget https://pypi.python.org/packages/4a/02/e3a9df3b0b9299a6fbd5958dd111a62731aa9b4054e9a361b05290278417/CreateRe-1.0.0.tar.gz#md5=a79148a155d8d13a83e102501c0c4868
 
