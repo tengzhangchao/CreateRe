@@ -1,0 +1,5 @@
+setup.py
+CreateRe.egg-info/PKG-INFO
+CreateRe.egg-info/SOURCES.txt
+CreateRe.egg-info/dependency_links.txt
+CreateRe.egg-info/top_level.txt
